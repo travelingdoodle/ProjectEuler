@@ -1,8 +1,10 @@
 //https://projecteuler.net/problem=3
 
+// we talked about this in class one time
 var i = 1;
 var j = 1;
 var total = 1;
+// target is the number that we are trying to find the largest prime factorial of
 var target = 600851475143;
 
 while(total < target) {
@@ -17,4 +19,5 @@ while(total < target) {
   i+=1;
 }
 
+// This logs the final answer 
 console.log(target);
